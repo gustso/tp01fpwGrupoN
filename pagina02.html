@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Semánticas en HTML5</title>
+    <style>        
+        .section {
+            border: 5px solid #0dce3d;
+            padding: 70px;
+            margin: 100px 0;
+            background-color: #326aa3;
+        }       
+    </style>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <!-- Cabecera del documento -->
+    <header style="background-color: #e03b3b">
+        <h1>Mi Sitio Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Artículo principal -->
+        <article>
+            <h2>Artículo Principal</h2>
+            <p>Este es el contenido principal del artículo. Los artículos son piezas independientes de contenido que pueden ser distribuidas de manera independiente.</p>
+        </article>
+
+        <!-- Sección adicional -->
+        <section class="section">
+            <h2>Sección Adicional</h2>
+            <p>Esta es una sección dentro del contenido principal. Las secciones agrupan contenido temáticamente relacionado.</p>
+        </section>
+
+        <!-- Barra lateral -->
+        <aside>
+            <h2>Barra Lateral</h2>
+            <p>Este es un contenido relacionado pero no central al tema principal. Las barras laterales suelen contener información complementaria o enlaces adicionales.</p>
+        </aside>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

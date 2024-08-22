@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Diferencias entre &lt;div&gt; y &lt;span&gt;</title>
+    <style>
+        .contenedor {
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+        .inline {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demostración de &lt;div&gt; vs &lt;span&gt;</h1>
+
+    <!-- Uso de <div> para estructura en bloque -->
+    <div class="contenedor">
+        <h2>Contenedor en bloque</h2>
+        <p>Este es un div en acción. Un &lt;div&gt; es un elemento de nivel de bloque, lo que significa que ocupa todo el ancho disponible y comienza en una nueva línea.</p>
+        <p>Puede contener otros elementos, como este <span class="inline">span</span> y este texto.</p>
+    </div>
+
+    <!-- Uso de <span> para estilo en línea -->
+    <p>Este es un <span class="inline">span en acción</span>. Un &lt;span&gt; es un elemento de nivel en línea, lo que significa que no interrumpe el flujo de texto. Se usa típicamente para aplicar estilos o manipular un pequeño trozo de texto dentro de otros elementos.</p>
+
+    <!-- Ejemplo adicional con ambos -->
+    <div class="contenedor">
+        <p>El siguiente texto contiene <span class="inline">varios elementos &lt;span&gt;</span> para resaltar partes específicas <span class="inline">sin interrumpir</span> el flujo del texto. Esto es útil para aplicar estilos en línea.</p>
+    </div>
+
+    <h2>Lista Ordenada</h2>
+    <ol>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ol>
+
+    <h2>Lista Desordenada</h2>
+    <ul>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+    </ul>
+
+
+    <h2>Lista de Descripción</h2>
+    <dl>
+        <dt>Término 1</dt>
+        <dd>Definición del término 1.</dd>
+        <dt>Término 2</dt>
+        <dd>Definición del término 2.</dd>
+        <dt>Término 3</dt>
+        <dd>Definición del término 3.</dd>
+    </dl>
+</body>
+</html>
